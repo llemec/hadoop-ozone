@@ -215,6 +215,16 @@ public final class OzoneConsts {
   public enum Units {TB, GB, MB, KB, BYTES}
 
   /**
+   * Quota RESET default is -1, which means quota is not set.
+   */
+  public static final long QUOTA_RESET = -1;
+
+  /**
+   * Quota Units.
+   */
+  public enum Units {TB, GB, MB, KB, BYTES}
+
+  /**
    * Max number of keys returned per list buckets operation.
    */
   public static final int MAX_LISTBUCKETS_SIZE  = 1024;
